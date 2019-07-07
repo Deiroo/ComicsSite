@@ -50,7 +50,7 @@ namespace Comics.Repository.implementation {
             return result;
         }
 
-        public IEnumerable<Comic> GetComicsByGenero(string Genero)
+        public IEnumerable<Comic> GetComicsByGenero(string GeneroA)
         {
             var result = new List<Comic>();
             try{
@@ -58,7 +58,7 @@ namespace Comics.Repository.implementation {
                 .Include(c => c.Genero)
                 .OrderByDescending(c=>c.Id)
                 .Take(10)
-                .Where(c => c.Genero.nombre == Genero)
+                .Where(c => c.Genero.nombre == GeneroA)
                 .ToList();
             } catch (System.Exception){
                 throw;
