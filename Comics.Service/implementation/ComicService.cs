@@ -40,7 +40,7 @@ namespace Comics.Service.implementation
 
         public bool Save(Comic entity)
         {
-            throw new System.NotImplementedException();
+            return ComicRepository.Save(entity);
         }
 
         public bool Update(Comic entity)
