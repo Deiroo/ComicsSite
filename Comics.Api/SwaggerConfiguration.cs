@@ -12,7 +12,7 @@ namespace Comics.Api
         public const string ContactName = "Renato Ballon";
 
         
-        public const string ContactUrl = "http://hbrogroup.com.pe";
+        public const string ContactUrl = "https://www.facebook.com/renato.ballon";
 
        
         public const string DocNameV1 = "v1";
