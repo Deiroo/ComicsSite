@@ -1,0 +1,14 @@
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Service\bin\Debug\netstandard2.0\Comics.Service.deps.json
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Service\bin\Debug\netstandard2.0\Comics.Service.dll
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Service\bin\Debug\netstandard2.0\Comics.Service.pdb
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Service\bin\Debug\netstandard2.0\Comics.Entity.dll
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Service\bin\Debug\netstandard2.0\Comics.Repository.dll
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Service\bin\Debug\netstandard2.0\Comics.Repository.pdb
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Service\bin\Debug\netstandard2.0\Comics.Entity.pdb
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Service\obj\Debug\netstandard2.0\Comics.Service.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Service\obj\Debug\netstandard2.0\Comics.Service.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Service\obj\Debug\netstandard2.0\Comics.Service.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Service\obj\Debug\netstandard2.0\Comics.Service.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Service\obj\Debug\netstandard2.0\Comics.Service.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Service\obj\Debug\netstandard2.0\Comics.Service.dll
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Service\obj\Debug\netstandard2.0\Comics.Service.pdb

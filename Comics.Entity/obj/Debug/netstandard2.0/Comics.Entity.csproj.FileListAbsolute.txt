@@ -1,0 +1,9 @@
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Entity\bin\Debug\netstandard2.0\Comics.Entity.deps.json
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Entity\bin\Debug\netstandard2.0\Comics.Entity.dll
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Entity\bin\Debug\netstandard2.0\Comics.Entity.pdb
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Entity\obj\Debug\netstandard2.0\Comics.Entity.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Entity\obj\Debug\netstandard2.0\Comics.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Entity\obj\Debug\netstandard2.0\Comics.Entity.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Entity\obj\Debug\netstandard2.0\Comics.Entity.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Entity\obj\Debug\netstandard2.0\Comics.Entity.dll
+C:\Users\Usuario\Desktop\Carpetas\Proyectos\ComicsSite\Comics.Entity\obj\Debug\netstandard2.0\Comics.Entity.pdb
