@@ -1,13 +1,14 @@
-using Comics.Entity;
 using System.Collections.Generic;
+using Comics.Entity;
 
-namespace Comics.Repository
+namespace Comics.Service
 {
-    public interface IComicRepository: IRepository<Comic>
+
+    public interface IComicService : IService<Comic>
     {
+
         IEnumerable<Comic> GetComicsByGenero (string Genero);
 
         IEnumerable<Comic> GetComicsByIdioma (string Idioma);
-
     }
 }

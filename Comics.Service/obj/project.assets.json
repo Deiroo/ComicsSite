@@ -3111,11 +3111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Usuario\\Desktop\\Carpetas\\Proyectos\\ComicsSite\\Comics.Service\\Comics.Service.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Proyectos\\ComicsSite\\Comics.Service\\Comics.Service.csproj",
       "projectName": "Comics.Service",
-      "projectPath": "c:\\Users\\Usuario\\Desktop\\Carpetas\\Proyectos\\ComicsSite\\Comics.Service\\Comics.Service.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Proyectos\\ComicsSite\\Comics.Service\\Comics.Service.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Usuario\\Desktop\\Carpetas\\Proyectos\\ComicsSite\\Comics.Service\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Proyectos\\ComicsSite\\Comics.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3134,11 +3134,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "c:\\Users\\Usuario\\Desktop\\Carpetas\\Proyectos\\ComicsSite\\Comics.Entity\\Comics.Entity.csproj": {
-              "projectPath": "c:\\Users\\Usuario\\Desktop\\Carpetas\\Proyectos\\ComicsSite\\Comics.Entity\\Comics.Entity.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Carpetas\\Proyectos\\ComicsSite\\Comics.Entity\\Comics.Entity.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Proyectos\\ComicsSite\\Comics.Entity\\Comics.Entity.csproj"
             },
-            "c:\\Users\\Usuario\\Desktop\\Carpetas\\Proyectos\\ComicsSite\\Comics.Repository\\Comics.Repository.csproj": {
-              "projectPath": "c:\\Users\\Usuario\\Desktop\\Carpetas\\Proyectos\\ComicsSite\\Comics.Repository\\Comics.Repository.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Carpetas\\Proyectos\\ComicsSite\\Comics.Repository\\Comics.Repository.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Carpetas\\Proyectos\\ComicsSite\\Comics.Repository\\Comics.Repository.csproj"
             }
           }
         }
