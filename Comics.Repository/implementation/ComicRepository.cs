@@ -52,10 +52,10 @@ namespace Comics.Repository.implementation {
 
         public IEnumerable<Comic> GetComicsByGenero(string Genero)
         {
-            var comic = context.Comics;
+            var result = new List<Comic>();
             try{
- 
-                comic.Include(c => c.Proveedor)
+                result = context.Comics
+                .Include(c => c.Genero)
                 .OrderByDescending(c=>c.Id)
                 .Take(10)
                 .Where(c => c.Genero.nombre == Genero)
@@ -63,16 +63,15 @@ namespace Comics.Repository.implementation {
             } catch (System.Exception){
                 throw;
             }
-            return comic;
+            return result;
 
         }
 
         public IEnumerable<Comic> GetComicsByIdioma(string Idioma)
         {
-            var comic = context.Comics;
+            var result = new List<Comic>();
             try{
- 
-                comic.Include(c => c.Proveedor)
+                result = context.Comics
                 .OrderByDescending(c=>c.Id)
                 .Take(10)
                 .Where(c => c.idioma == Idioma)
@@ -80,14 +79,22 @@ namespace Comics.Repository.implementation {
             } catch (System.Exception){
                 throw;
             }
-            return comic;
+            return result;
         }
 
         public bool Save(Comic entity)
         {
+            Comic comic = new Comic{
+                nombre = entity.nombre,
+                fechaPublicacion = entity.fechaPublicacion,
+                fechaRegistro = entity.fechaRegistro,
+                idioma = entity.idioma,
+                GeneroId =entity.GeneroId,
+                ProveedorId = entity.ProveedorId
+            };
             try
             {
-                context.Add(entity);
+                context.Comics.Add(comic);
                 context.SaveChanges();
             }
             catch (System.Exception)

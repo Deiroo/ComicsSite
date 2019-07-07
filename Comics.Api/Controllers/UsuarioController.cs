@@ -2,7 +2,7 @@ using Comics.Entity;
 using Comics.Service;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Hospital.Api.Controllers
+namespace Comics.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

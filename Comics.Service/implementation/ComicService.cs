@@ -30,12 +30,12 @@ namespace Comics.Service.implementation
 
         public IEnumerable<Comic> GetComicsByGenero(string Genero)
         {
-            throw new System.NotImplementedException();
+            return ComicRepository.GetComicsByGenero(Genero);
         }
 
         public IEnumerable<Comic> GetComicsByIdioma(string Idioma)
         {
-            throw new System.NotImplementedException();
+            return ComicRepository.GetComicsByIdioma(Idioma);
         }
 
         public bool Save(Comic entity)

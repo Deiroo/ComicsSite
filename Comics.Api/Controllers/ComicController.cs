@@ -2,7 +2,7 @@ using Comics.Entity;
 using Comics.Service;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Hospital.Api.Controllers
+namespace Comics.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -24,7 +24,7 @@ namespace Hospital.Api.Controllers
             );
         }
 
-        [HttpGet("{genero}")]
+        [HttpGet("Genero/{genero}")]
         public ActionResult GetByGenero([FromRoute] string Genero)
         {
             return Ok(
@@ -32,11 +32,11 @@ namespace Hospital.Api.Controllers
             );
         }
 
-        [HttpGet("{idioma}")]
+        [HttpGet("Idioma/{idioma}")]
         public ActionResult GetByIdioma([FromRoute] string Idioma)
         {
             return Ok(
-                ComicService.GetComicsByGenero(Idioma)
+                ComicService.GetComicsByIdioma(Idioma)
             );
         }
 

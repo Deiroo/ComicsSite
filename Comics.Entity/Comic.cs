@@ -14,6 +14,10 @@ namespace Comics.Entity
 
         public string idioma{get;set;}
 
+        public int GeneroId{get;set;}
+
+        public int ProveedorId{get;set;}
+
         public Genero Genero {get;set;}
         public Proveedor Proveedor {get;set;}
     }
