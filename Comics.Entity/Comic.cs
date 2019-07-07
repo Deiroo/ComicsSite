@@ -2,7 +2,8 @@
 
 namespace Comics.Entity
 {
-    public class Class1
+    public class Comic
     {
+        
     }
 }
