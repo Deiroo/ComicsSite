@@ -61,10 +61,11 @@
           
           </td>
           <td>{{ props.item.nombre }}</td>
-          <td>{{ props.item.apellidos }}</td>
-          <td>{{ props.item.dni }}</td>
-          <td>{{ props.item.direccion }}</td>
-          <td>{{ props.item.telefono }}</td>
+          <td>{{ props.item.fechaPublicacion }}</td>
+          <td>{{ props.item.fechaRegistro }}</td>
+          <td>{{ props.item.idioma }}</td>
+          <td>{{ props.item.genero }}</td>
+          <td>{{ props.item.proveedor }}</td>
         </template>
         <template slot="no-data">
           <v-btn color="primary" @click="listar">Resetear</v-btn>
