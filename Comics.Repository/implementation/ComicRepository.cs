@@ -117,9 +117,9 @@ namespace Comics.Repository.implementation {
                  comicOriginal.nombre=entity.nombre;
                  comicOriginal.fechaPublicacion=entity.fechaPublicacion;
                  comicOriginal.fechaRegistro=entity.fechaRegistro;
-                 comicOriginal.Proveedor=entity.Proveedor;
+                 comicOriginal.ProveedorId=entity.ProveedorId;
                  comicOriginal.idioma=entity.idioma;
-                 comicOriginal.Genero=entity.Genero;
+                 comicOriginal.GeneroId=entity.GeneroId;
 
                  context.Update(comicOriginal);
                  context.SaveChanges();
