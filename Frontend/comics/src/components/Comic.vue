@@ -189,7 +189,7 @@ export default {
         //Código para guardar
         let me = this;
         axios
-          .post("api/paciente", {
+          .post("api/comic", {
             nombre: me.nombre,
             fechaPublicacion: me.fechaPublicacion,
             fechaRegistro: me.fechaRegistro,
