@@ -25,7 +25,7 @@ namespace Comics.Service.implementation
 
         public IEnumerable<Comic> GetAll()
         {
-            throw new System.NotImplementedException();
+            return ComicRepository.GetAll();
         }
 
         public IEnumerable<Comic> GetComicsByGenero(string Genero)
